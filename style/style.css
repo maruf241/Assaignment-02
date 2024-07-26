@@ -1,6 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap");
+.title-color {
+  color: rgb(255, 255, 255);
+}
+.text-color {
+  color: rgba(255, 255, 255, 0.5);
+}
 body {
   font-family: "Inter";
+  background-color: black;
 }
 nav {
   margin-left: 200px;
@@ -8,28 +15,32 @@ nav {
 }
 .navbar {
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 .navbar ul {
   display: flex;
-  
+  align-items: center;
 }
 
 .nav-border {
- border-style: solid;
- border-width: thin;
- border-radius: 20px;
- color: rgb(228, 240, 240);
- padding: 5px 5px;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 20px;
+  color: rgb(228, 240, 240);
+  padding: 5px 5px;
 }
 .navbar ul li {
   list-style: none;
 }
 .navbar ul li a {
+  color: aliceblue;
   text-decoration: none;
   padding: 0px 23px;
 }
 .navbar h1 {
+  font-weight: 800;
+  font-size: 43px;
   color: rgb(238, 66, 3);
   font-style: italic;
 }
@@ -40,14 +51,95 @@ nav {
   background-color: rgb(238, 66, 3);
   color: white;
   border: none;
-  border-radius: 10px;
-  padding: 4px 15px;
+  border-radius: 15px;
+  padding: 8px 20px;
 }
+/* first section */
+section {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+.banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.banner-title {
+  font-size: 78px;
+  font-weight: 900px;
+}
+.banner-img {
+  width: 349px;
+  height: 580px;
+}
+
+.banner-font-title {
+  font-family: "Cedarville Cursive";
+  font-style: italic;
+}
+
+.banner-btn {
+  background-color: rgb(238, 66, 3);
+  color: white;
+  border: none;
+  border-radius: 25px;
+  padding: 15px 40px;
+  font-size: 20px;
+}
+
+.banner-btn2 {
+  border-color: rgb(255, 255, 255);
+  color: rgb(255, 249, 247);
+  background-color: rgb(15, 14, 14);
+  border-style: solid;
+
+  border-radius: 25px;
+  padding: 15px 40px;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+.banner-img {
+  background-image: url(/images/Images\ 2.png);
+  position: relative;
+}
+.banner-box-btn1 {
+  display: flex;
+  backdrop-filter: blur(20px);
+  background: rgba(48, 48, 48, 0.54);
+  background-blend-mode: darken;
+  align-items: center;
+  border: 2px solid gray;
+  border-radius: 10px;
+  padding: 6px 35px;
+  position: absolute;
+  top: 410px;
+  left: -100px;
+}
+.circle {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(238, 66, 3);
+  margin-right: 20px;
+  border-radius: 100%;
+  display: inline-block;
+}
+.banner-box-btn2 {
+  border-radius: 12px;
+backdrop-filter: blur(20px);
+background: rgba(82, 71, 71, 0.802);
+  border: 2px solid gray;
+  position: absolute;
+  top: 120px;
+  right: -5px;
+}
+
 /* media quary */
 /* navbar */
 @media only screen and (max-width: 600px) {
   body {
     margin: 0 auto;
+    background-color: black;
   }
   .menu-icon {
     visibility: visible;
