@@ -168,6 +168,65 @@ background: rgba(82, 71, 71, 0.802);
 font-weight: 900;
 }
 
+.bmi-calculator-part-01{
+  text-align: center;
+  position: static;
+  padding-top: 80px;
+  
+}
+.bmi-title{
+  font-size: 48px;
+}
+
+table, th, td {
+  border: 1px solid;
+  border-collapse: collapse;
+  padding: 10px 25px;
+  text-align: left;  
+}
+
+/* ----------------------------------- */
+.input-btn{
+  border: 2px solid brown;
+  border-radius:8px ;
+  padding: 20px 40px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.input-btn-sex{
+  border-radius:8px ;
+  padding: 20px 40px;
+  font-size: 16px;
+  font-weight: 400;
+  width: 280px;
+  margin-top: 10px;
+}
+
+.input-btn-activity-factor{
+  border-radius:8px ;
+  padding: 20px 40px;
+  font-size: 16px;
+  font-weight: 400;
+  width: 565px;
+  margin-top: 10px;
+}
+.bmi-btn{
+  margin-top: 34px;
+}
+
+.bmi-card{
+  background-color:rgb(34, 34, 34);
+  display: flex;
+  justify-content: space-between; 
+  padding-left: 200px;
+  padding-right: 200px;
+  margin-top: 88px;
+ 
+  
+}
+
+
 
 /* media quary */
 /* navbar */
