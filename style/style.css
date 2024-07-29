@@ -241,48 +241,59 @@ td {
   row-gap: 8px;
   column-gap: 8px;
   width: 100%;
-  height: 272px;
-  margin-bottom: 500px;
+  height: 672px;
+  margin-bottom: 50px;
+  /* position: relative; */
 }
 .trainer-text{
-  margin-top: 300px;
-  margin-left:20px ;
+ position: absolute;
+ bottom: 20px;
+ left: 30px;
+}
+.team-text-color{
+  color: rgb(187, 207, 207);
 }
 .trainer1-img {
   background-image: url(/images/trainer1.png);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
+  position: relative;
 }
 .trainer2-img {
   background-image: url(/images/trainer2.png);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
+  position: relative;
 }
 .trainer3-img {
   background-image: url(/images/trainer3.png);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
+  position: relative;
 }
 .trainer4-img {
   background-image: url(/images/trainer4.png);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
+  position: relative;
 }
 .trainer5-img {
   background-image: url(/images/trainer5.png);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
+  position: relative;
 }
 .trainer6-img {
   background-image: url(/images/trainer6.png);
- 
+  background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
+  position: relative;
 }
 .team-title-desc {
   text-align: center;
@@ -320,8 +331,8 @@ hr{
 }
 
 /* media quary */
-/* navbar */
-@media only screen and (max-width: 600px) {
+
+/* @media only screen and (max-width: 576px) {
   body {
     background-color: rgb(14, 0, 0);
   }
@@ -333,6 +344,8 @@ hr{
     color: white;
     margin-top: 18px;
     margin-left: 150px;
+    width: 520px;
+   
   }
   .navbar ul {
     display: none;
@@ -347,4 +360,85 @@ hr{
     align-items: center;
     margin-left: 40px;
   }
+} */
+
+@media (max-width: 576px) {
+  nav {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  
+  .navbar ul {
+    display: none;
+  }
+  
+  .menu-icon {
+    visibility: visible;
+    color: white;
+    font-size: 30px;
+  }
+  
+  .banner {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .banner-title {
+    font-size: 36px;
+  }
+  
+  .banner-img {
+    width: 100%;
+    height: auto;
+    position: static;
+  }
+  
+  .banner-box-btn1,
+  .banner-box-btn2 {
+    position: static;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .card-sect2 {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .run-section {
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .run-title {
+    font-size: 24px;
+  }
+  
+  .run-img {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+  }
+  
+  .bmi-card {
+    flex-direction: column;
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .team-member {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  
+  .footer-section {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  hr {
+    width: 100%;
+  }
 }
+
