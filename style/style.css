@@ -100,7 +100,7 @@ section {
   margin-left: 10px;
 }
 .banner-img {
-  background-image: url(/images/Images\ 2.png);
+  background-image: url(../images/Images\ 2.png);
   position: relative;
 }
 .banner-box-btn1 {
@@ -255,42 +255,42 @@ td {
   color: rgb(187, 207, 207);
 }
 .trainer1-img {
-  background-image: url(/images/trainer1.png);
+  background-image: url(../images/trainer1.png);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
   position: relative;
 }
 .trainer2-img {
-  background-image: url(/images/trainer2.png);
+  background-image: url(../images/trainer2.png);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
   position: relative;
 }
 .trainer3-img {
-  background-image: url(/images/trainer3.png);
+  background-image: url(../images/trainer3.png);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
   position: relative;
 }
 .trainer4-img {
-  background-image: url(/images/trainer4.png);
+  background-image: url(../images/trainer4.png);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
   position: relative;
 }
 .trainer5-img {
-  background-image: url(/images/trainer5.png);
+  background-image: url(../images/trainer5.png);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
   position: relative;
 }
 .trainer6-img {
-  background-image: url(/images/trainer6.png);
+  background-image: url(../images/trainer6.png);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
