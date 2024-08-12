@@ -276,7 +276,7 @@ td {
   position: relative;
 }
 .trainer4-img {
-  background-image: url(../images/trainer4.png);
+  background-image: url(../images/trainer8.png);
   background-size: cover;
   background-repeat: no-repeat;
   border-radius: 20px;
@@ -331,58 +331,30 @@ hr{
   font-size: 38px;
 }
 
-/* media quary */
-
-/* @media only screen and (max-width: 576px) {
-  body {
-    background-color: rgb(14, 0, 0);
-  }
+ @media (max-width: 576px) {
   nav {
     margin-left: 40px;
+    margin-right:0px;
   }
-  .menu-icon {
-    visibility: visible;
-    color: white;
-    margin-top: 18px;
-    margin-left: 150px;
-    width: 520px;
-   
-  }
-  .navbar ul {
-    display: none;
-  }
-  .banner-btn {
-    display: inline;
-    align-items: center;
-  }
-  .banner {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-left: 40px;
-  }
-} */
-
-/* @media (max-width: 576px) {
-  nav {
+  section {
     margin-left: 20px;
     margin-right: 20px;
   }
-  
   .navbar ul {
     display: none;
   }
-  
   .menu-icon {
     visibility: visible;
     color: white;
     font-size: 30px;
+    margin-left: 80px;
   }
   
   .banner {
+    margin-left: 0px;
     flex-direction: column;
-    align-items: center;
-    text-align: center;
+    align-items:center;
+    
   }
   
   .banner-title {
@@ -390,16 +362,9 @@ hr{
   }
   
   .banner-img {
-    width: 100%;
-    height: auto;
-    position: static;
-  }
-  
-  .banner-box-btn1,
-  .banner-box-btn2 {
-    position: static;
-    margin-top: 20px;
-    margin-bottom: 20px;
+    position: relative;
+    width: 349px;
+    height: 580px;
   }
   
   .card-sect2 {
@@ -431,6 +396,12 @@ hr{
   
   .team-member {
     grid-template-columns: repeat(1, 1fr);
+    row-gap: 8px;
+    column-gap: 8px;
+    height: 1400px;
+    margin-bottom: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
   }
   
   .footer-section {
@@ -441,112 +412,4 @@ hr{
   hr {
     width: 100%;
   }
-} */
-
-@media (max-width: 576px) {
-  nav {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-  
-  .navbar {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
-  .navbar ul {
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 10px;
-  }
-  
-  .navbar ul li a {
-    padding: 10px 0;
-  }
-
-  .menu-icon {
-    visibility: visible;
-  }
-
-  section {
-    margin-left: 20px;
-    margin-right: 20px;
-  }
-  
-  .banner {
-    flex-direction: column;
-    align-items: flex-start;
-  }
-  
-  .banner-title {
-    font-size: 36px;
-    margin-bottom: 20px;
-  }
-  
-  .banner-img {
-    width: 100%;
-    height: auto;
-  }
-
-  .banner-btn1, .banner-btn2 {
-    width: 100%;
-    margin: 10px 0;
-  }
-  
-  .banner-box-btn1, .banner-box-btn2 {
-    position: static;
-    width: 100%;
-    margin: 10px 0;
-  }
-  
-  .card-sect2 {
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .run-section {
-    flex-direction: column;
-    padding: 20px;
-  }
-  
-  .run-title {
-    font-size: 24px;
-  }
-  
-  .run-img {
-    width: 100%;
-    height: auto;
-    margin-top: 20px;
-  }
-  
-  .bmi-card {
-    flex-direction: column;
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  
-  .bmi-calculator,
-  .bmi-table-part1 {
-    margin: 20px 0;
-  }
-  
-  .team-member {
-    grid-template-columns: 1fr;
-  }
-
-  .footer-section {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  hr {
-    width: 90%;
-  }
-}
-
-
-
-
-
-
-
+} 
